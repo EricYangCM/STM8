@@ -32,3 +32,7 @@ void Tick(void)
 }
 
 
+void Set_PWM(unsigned char Value)
+{
+	TIM2->CCR1L = Value;
+}
